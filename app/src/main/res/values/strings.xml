@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="denglu">登陆</string>
+    <string name="zhuce">注册</string>
+    <string name="zhanghao">账号</string>
+    <string name="mima">密码</string>
+</resources>

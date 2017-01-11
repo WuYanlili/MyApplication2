@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.myapplication2.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <Button
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:id="@+id/i3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/i2"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:text="重新开始"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/i2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

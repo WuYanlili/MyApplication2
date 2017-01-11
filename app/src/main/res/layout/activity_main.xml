@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/test"
+    tools:context="com.example.wuqia.myapplication.MainActivity">
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:id="@+id/li_1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="#912094"
+            android:id="@+id/btn_test"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="@string/zhanghao"
+            />
+        <EditText
+            android:id="@+id/zhanghao"
+            android:hint="请输入账号"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/li_2"
+        android:layout_below="@id/li_1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="#da4dad"
+            android:id="@+id/btn_dengu"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="@string/mima"
+            />
+
+        <EditText
+            android:id="@+id/mima"
+            android:hint="请输入密码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/li_2"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:id="@+id/zhuce"
+            android:layout_marginStart="120dp"
+            android:text="@string/zhuce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/denglu"
+            android:text="@string/denglu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/hello_i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
